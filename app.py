@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask,render_template
-app=Flask(__name__,static_folder='F:\web_programs\anupam1\static')
+app=Flask(__name__,static_folder='static')
 
 @app.route('/')
 def fun():
